@@ -1,6 +1,5 @@
 # Pilot Project Easter Rising
 
-![Title Image](assets/intro-image.png)
 
 **[Adapted from the Course Workbook Viewable Here](https://theportus.github.io/hacking-historical-texts/)**
 
