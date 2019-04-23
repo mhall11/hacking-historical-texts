@@ -1,0 +1,43 @@
+# Initial Findings
+---
+<figure>
+    <p>
+        <a href="{{site.baseurl}}/index.html">Home</a> |
+        <a href="{{site.baseurl}}/pages/background.html">Background</a> |
+        <a href="{{site.baseurl}}/pages/initial_findings.html">Initial Findings</a> |
+        <a href="{{site.baseurl}}/pages/problems_and_possibilities.html">Problems and Possibilities</a> |
+        <a href="{{site.baseurl}}/pages/source_analysis.html">Source Analysis</a> |
+        <a href="{{site.baseurl}}/pages/workflow.html">Workflow</a>
+        <a href="{{site.baseurl}}/pages/bibliography.html">Bibliography and Credits</a>
+    </p>
+</figure>
+---
+
+### Tableau Visualizations of the Easter Rising Rebellion
+#### By Michael Hall
+
+
+<div class='tableauPlaceholder' id='viz1525038874304' style='position: relative'><noscript><a href='#'><img alt='Story 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ir&#47;IrishEasterRising&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='views&#47;IrishEasterRising&#47;Story1?:embed=y&amp;:display_count=y&amp;publish=yes' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ir&#47;IrishEasterRising&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1525038874304');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+The tableau visualization above was created using the ArcGIS Easter Rising CSV made for their mapping tutorial. The information within the CSV contained religion, sex, age, and affiliation. The first sheet in the workbook shows the religion of those in the file split by gender. The importance of this is that a majority of the people in this data source are Catholic, a religion which is predominately Irish in Ireland during this time. This is not a particularly new thought, but when added with the visualization in sheets two and three (focusing on age and affiliation with religion), it reveals that the Irish resistance were exclusively Catholic and we all fairly young. This leads us to believe that the Easter Rising Rebellion was definitely a result of the earlier revolutions and the Gaelic Revival. The Gaelic Revival was a return of the Irish language and nationalism happening in the late nineteenth century. The timing of the Revival means that many of Irish resistance were influenced by the writings and cultural movements of the Gaelic Revival. The fourth sheet shows purely affiliation by age and bolsters the point just made. The Irish resistance groups have about an average age of 33 to 35, depending on sex, meaning they were very likely influenced by the Gaelic Revival's nationalism.
+
+<div class='tableauPlaceholder' id='viz1525040549634' style='position: relative'><noscript><a href='#'><img alt='Affiliation and Death ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ea&#47;EasterRisingPartII&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='EasterRisingPartII&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ea&#47;EasterRisingPartII&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1525040549634');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+This visualization was created using the code provided by Professor David Thomas (the code is included in the workflow section of this workbook) to properly turn the scraped Glasnevin Trust PDF TXT file into a workable CSV. The first sheet is a better representation of the affiliation and numbers of those who died during the Easter Risings. The Glasnevin Trust list was more comprehensive when it came numbers dead and more wide-reaching list of affiliations, though it lacked key data like age, religion, and sex. The next two pages focus on the number of deaths on each day provided by the Glasnevin Trust PDF and the number of deaths each day and the affiliation of those who died. The former shows that the deaths were not exclusively between April 26<sup>th</sup> and April 29<sup>th</sup> as usually depicted. While the vast majority died during those four days of fighting, there were deaths tied to the Rebellion both before and after. The deaths after the days of fighting are likely those executed or who died of wounds, though this is purely speculation as cause of death was not provided. The final page shows that the vast majority of those who died were civilians, followed by the British Soldiers. This is interesting because you would expect the British soldiers to not to have taken so many casualties when going up against a resistance force.
+
+
+
+### Maps of the deaths during the 1916 Easter Rising Rebellion
+![Places of deaths](docs/files/map1.png)
+
+*Figure 1: Location of Deaths*
+
+![Locations of deaths in Dublin](docs/files/map2.png)
+
+*Figure 2: Location of Death Only in Dublin*
+
+![Heat map of deaths](docs/files/map3.png)
+
+*Figure 3: Heat Map of Deaths in Dublin*
